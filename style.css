@@ -32,3 +32,13 @@ h2 {
     color: #666;
     text-align: center;
 }
+
+.media-section {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.video-wrapper {
+    margin-bottom: 10px;
+    text-align: center; 
+}
