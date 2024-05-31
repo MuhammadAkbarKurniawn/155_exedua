@@ -42,3 +42,19 @@ h2 {
     margin-bottom: 10px;
     text-align: center; 
 }
+
+audio {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto 10px auto;
+}
+
+video, img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto 10px auto;
+    border: 1px solid #444;
+    border-radius: 5px;
+}
