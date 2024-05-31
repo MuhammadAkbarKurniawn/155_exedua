@@ -10,4 +10,12 @@ document.getElementById('surveyForm').addEventListener('submit', function(event)
     var favoriteSongs = favoriteSongsArray.join(', ');
     var otherSong = document.getElementById('otherSong').value;
     var comments = document.getElementById('comments').value;
+
+    var pesan = "Nama: " + name +
+                "\nTanggal Lahir: " + dob +
+                "\nAlbum Favorit: " + favoriteAlbum +
+                "\nPernah Menonton Konser: " + concert +
+                "\nLagu Favorit: " + favoriteSongs +
+                "\nLagu Favorit Lain: " + otherSong +
+                "\nKomentar: " + comments;
     });
